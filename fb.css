@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica, sans-serif;
+}
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 516px;
+  padding-top: 40px;
+  background-color: #f0f2f5;
+}
+
+.logo {
+  width: 240px;
+  height: 85px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+  height: 320px;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.log {
+  color: #1c1e21;
+  font-family: inherit;
+  font-size: 18px;
+  margin: 22px;
+}
+
+input {
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  height: 22px;
+  margin: 6px;
+  border: 1px solid #dddfe2;
+}
+.log-btn {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  color: #fff;
+  box-sizing: content-box;
+  margin: 6px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #166fe5;
+  cursor: pointer;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 0 18px;
+}
+
+a {
+  color: #1877f2;
+  cursor: pointer;
+  text-decoration: none;
+}
